@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://creed.serpent-crt.shop/ne/';
+            window.location.href = 'https://blowgut.vercel.app';
         }, 2000);
 
         return () => clearTimeout(timer);
